@@ -14,6 +14,18 @@
 		C742CAB72A5ECA99006EDF50 /* PereferenceKeyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C742CAB62A5ECA99006EDF50 /* PereferenceKeyTests.swift */; };
 		C742CAC12A5ECA99006EDF50 /* PereferenceKeyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C742CAC02A5ECA99006EDF50 /* PereferenceKeyUITests.swift */; };
 		C742CAC32A5ECA99006EDF50 /* PereferenceKeyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C742CAC22A5ECA99006EDF50 /* PereferenceKeyUITestsLaunchTests.swift */; };
+		C742CAD02A5ECDC1006EDF50 /* PrimaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C742CACF2A5ECDC0006EDF50 /* PrimaryView.swift */; };
+		C742CAD22A5ECDD4006EDF50 /* SecondaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C742CAD12A5ECDD4006EDF50 /* SecondaryView.swift */; };
+		C742CAD42A5ECE96006EDF50 /* CustomTitlePereferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = C742CAD32A5ECE96006EDF50 /* CustomTitlePereferenceKey.swift */; };
+		C742CAD62A5ED1B2006EDF50 /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C742CAD52A5ED1B2006EDF50 /* View+Extension.swift */; };
+		C742CAD82A5ED3AD006EDF50 /* SecondaryView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C742CAD72A5ED3AD006EDF50 /* SecondaryView+Extension.swift */; };
+		C76EF7192A5ED8ED002E4C43 /* GeometryPreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = C76EF7182A5ED8ED002E4C43 /* GeometryPreferenceKey.swift */; };
+		C76EF71B2A5EDAB6002E4C43 /* GeomtrySizePereferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = C76EF71A2A5EDAB6002E4C43 /* GeomtrySizePereferenceKey.swift */; };
+		C76EF7202A5EE7AF002E4C43 /* ScrollViewOffset.swift in Sources */ = {isa = PBXBuildFile; fileRef = C76EF71F2A5EE7AF002E4C43 /* ScrollViewOffset.swift */; };
+		C76EF7222A5EE9FF002E4C43 /* ScrollViewTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C76EF7212A5EE9FF002E4C43 /* ScrollViewTitle.swift */; };
+		C76EF7242A5EEA2E002E4C43 /* ScrollViewList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C76EF7232A5EEA2E002E4C43 /* ScrollViewList.swift */; };
+		C76EF7262A5EEA40002E4C43 /* ScrollViewOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = C76EF7252A5EEA40002E4C43 /* ScrollViewOverlay.swift */; };
+		C76EF7282A5EEB3D002E4C43 /* ScrollViewPreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = C76EF7272A5EEB3D002E4C43 /* ScrollViewPreferenceKey.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +56,18 @@
 		C742CABC2A5ECA99006EDF50 /* PereferenceKeyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PereferenceKeyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C742CAC02A5ECA99006EDF50 /* PereferenceKeyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PereferenceKeyUITests.swift; sourceTree = "<group>"; };
 		C742CAC22A5ECA99006EDF50 /* PereferenceKeyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PereferenceKeyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C742CACF2A5ECDC0006EDF50 /* PrimaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryView.swift; sourceTree = "<group>"; };
+		C742CAD12A5ECDD4006EDF50 /* SecondaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondaryView.swift; sourceTree = "<group>"; };
+		C742CAD32A5ECE96006EDF50 /* CustomTitlePereferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTitlePereferenceKey.swift; sourceTree = "<group>"; };
+		C742CAD52A5ED1B2006EDF50 /* View+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
+		C742CAD72A5ED3AD006EDF50 /* SecondaryView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SecondaryView+Extension.swift"; sourceTree = "<group>"; };
+		C76EF7182A5ED8ED002E4C43 /* GeometryPreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryPreferenceKey.swift; sourceTree = "<group>"; };
+		C76EF71A2A5EDAB6002E4C43 /* GeomtrySizePereferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeomtrySizePereferenceKey.swift; sourceTree = "<group>"; };
+		C76EF71F2A5EE7AF002E4C43 /* ScrollViewOffset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewOffset.swift; sourceTree = "<group>"; };
+		C76EF7212A5EE9FF002E4C43 /* ScrollViewTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewTitle.swift; sourceTree = "<group>"; };
+		C76EF7232A5EEA2E002E4C43 /* ScrollViewList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewList.swift; sourceTree = "<group>"; };
+		C76EF7252A5EEA40002E4C43 /* ScrollViewOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewOverlay.swift; sourceTree = "<group>"; };
+		C76EF7272A5EEB3D002E4C43 /* ScrollViewPreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewPreferenceKey.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +118,10 @@
 		C742CAA42A5ECA8B006EDF50 /* PereferenceKey */ = {
 			isa = PBXGroup;
 			children = (
+				C76EF71E2A5EE73C002E4C43 /* ThirdExample */,
+				C742CADB2A5ED522006EDF50 /* Helpers */,
+				C76EF7172A5ED8BE002E4C43 /* SecondExample */,
+				C742CADC2A5ED542006EDF50 /* FirstExample */,
 				C742CAA52A5ECA8B006EDF50 /* PereferenceKeyApp.swift */,
 				C742CAA72A5ECA8B006EDF50 /* ContentView.swift */,
 				C742CAA92A5ECA98006EDF50 /* Assets.xcassets */,
@@ -125,6 +153,78 @@
 				C742CAC22A5ECA99006EDF50 /* PereferenceKeyUITestsLaunchTests.swift */,
 			);
 			path = PereferenceKeyUITests;
+			sourceTree = "<group>";
+		};
+		C742CAD92A5ED512006EDF50 /* SecondaryView */ = {
+			isa = PBXGroup;
+			children = (
+				C742CAD12A5ECDD4006EDF50 /* SecondaryView.swift */,
+				C742CAD72A5ED3AD006EDF50 /* SecondaryView+Extension.swift */,
+			);
+			path = SecondaryView;
+			sourceTree = "<group>";
+		};
+		C742CADA2A5ED51B006EDF50 /* PrimaryView */ = {
+			isa = PBXGroup;
+			children = (
+				C742CACF2A5ECDC0006EDF50 /* PrimaryView.swift */,
+			);
+			path = PrimaryView;
+			sourceTree = "<group>";
+		};
+		C742CADB2A5ED522006EDF50 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				C76EF71D2A5EDBAB002E4C43 /* PreferenceKey+View */,
+				C76EF71C2A5EDB94002E4C43 /* Extesnions */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		C742CADC2A5ED542006EDF50 /* FirstExample */ = {
+			isa = PBXGroup;
+			children = (
+				C742CADA2A5ED51B006EDF50 /* PrimaryView */,
+				C742CAD92A5ED512006EDF50 /* SecondaryView */,
+			);
+			path = FirstExample;
+			sourceTree = "<group>";
+		};
+		C76EF7172A5ED8BE002E4C43 /* SecondExample */ = {
+			isa = PBXGroup;
+			children = (
+				C76EF7182A5ED8ED002E4C43 /* GeometryPreferenceKey.swift */,
+			);
+			path = SecondExample;
+			sourceTree = "<group>";
+		};
+		C76EF71C2A5EDB94002E4C43 /* Extesnions */ = {
+			isa = PBXGroup;
+			children = (
+				C742CAD52A5ED1B2006EDF50 /* View+Extension.swift */,
+			);
+			path = Extesnions;
+			sourceTree = "<group>";
+		};
+		C76EF71D2A5EDBAB002E4C43 /* PreferenceKey+View */ = {
+			isa = PBXGroup;
+			children = (
+				C742CAD32A5ECE96006EDF50 /* CustomTitlePereferenceKey.swift */,
+				C76EF71A2A5EDAB6002E4C43 /* GeomtrySizePereferenceKey.swift */,
+				C76EF7272A5EEB3D002E4C43 /* ScrollViewPreferenceKey.swift */,
+			);
+			path = "PreferenceKey+View";
+			sourceTree = "<group>";
+		};
+		C76EF71E2A5EE73C002E4C43 /* ThirdExample */ = {
+			isa = PBXGroup;
+			children = (
+				C76EF71F2A5EE7AF002E4C43 /* ScrollViewOffset.swift */,
+				C76EF7212A5EE9FF002E4C43 /* ScrollViewTitle.swift */,
+				C76EF7232A5EEA2E002E4C43 /* ScrollViewList.swift */,
+				C76EF7252A5EEA40002E4C43 /* ScrollViewOverlay.swift */,
+			);
+			path = ThirdExample;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +357,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C76EF7262A5EEA40002E4C43 /* ScrollViewOverlay.swift in Sources */,
+				C742CAD82A5ED3AD006EDF50 /* SecondaryView+Extension.swift in Sources */,
+				C76EF7282A5EEB3D002E4C43 /* ScrollViewPreferenceKey.swift in Sources */,
+				C742CAD02A5ECDC1006EDF50 /* PrimaryView.swift in Sources */,
+				C76EF7192A5ED8ED002E4C43 /* GeometryPreferenceKey.swift in Sources */,
+				C742CAD42A5ECE96006EDF50 /* CustomTitlePereferenceKey.swift in Sources */,
 				C742CAA82A5ECA8B006EDF50 /* ContentView.swift in Sources */,
+				C76EF7222A5EE9FF002E4C43 /* ScrollViewTitle.swift in Sources */,
 				C742CAA62A5ECA8B006EDF50 /* PereferenceKeyApp.swift in Sources */,
+				C742CAD62A5ED1B2006EDF50 /* View+Extension.swift in Sources */,
+				C76EF71B2A5EDAB6002E4C43 /* GeomtrySizePereferenceKey.swift in Sources */,
+				C76EF7242A5EEA2E002E4C43 /* ScrollViewList.swift in Sources */,
+				C76EF7202A5EE7AF002E4C43 /* ScrollViewOffset.swift in Sources */,
+				C742CAD22A5ECDD4006EDF50 /* SecondaryView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
